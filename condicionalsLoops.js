@@ -42,17 +42,36 @@ if (pet=== "perro"){
 
 
 //Ejercicio 5: Haz el mismo ejercicio 3, pero con el condicional switch.
-
 //Escribe tu código aquí
+
+switch(pet){
+    case "serpiente":
+   console.log("es un perro");
+   break;
+    case "gato":
+        console.log("es un gato");
+        break;
+        case "pajaro":
+            console.log("es un pajaro");
+            break;
+            
+            default:
+            console.log("no es ninguna mascota");
+            break;
+
+
+};
+
+
 
 
 //Ejercicio 6: Usando un operador ternario, escribe un programa que lea la constante weather e imprima en consola si es soleado "Me vestiré con un vestido" y si no es así que imprima "Me vestiré con pantalón"
 
 const weather = "soleado"
 
-const result = //Escribe tu código aquí;
+const result = weather=== "soleado " ? "me vestire con un vestido" : "me vestire con pantalon" ;//Escribe tu código aquí;
 
-console.log(result)
+console.log(result);
 
 //Ejercicio 7: cambia el valor de weather a "frío" y mira el resultado en consola para comprobar que tu código funciona bien.
 
