@@ -26,6 +26,15 @@ if (age >=18){
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 
 const pet = "perro";
+if (pet=== "perro"){
+    console.log("tengo un perro");
+}else if(pet==="gato"){
+    console.log("tengo un gato");
+}else if (pet==="pagaro"){
+    console.log("tengo un pajaro")
+}else{
+    console.log("no tengo mascotas")
+};
 //Escribe tu código aquí
 
 
