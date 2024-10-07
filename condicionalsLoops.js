@@ -79,6 +79,12 @@ console.log(result);
 
 const value = '1'
 
+const resultado = typeof value === "number" ? "Es un número" :
+               typeof value === "string" ? "Es un string" :
+               "No es ni número ni string";
+
+console.log(resultado);
+
 //Escribe tu código aquí
 
 
