@@ -77,6 +77,8 @@ console.log(result);
 
 //Ejercicio 8: Escribe un programa que al darle la constante 'value' imprima en consola "Es un número" cuando el valor sea de tipo number, "Es un string" cuando el valor sea de tipo string o si no es ni uno ni otro que imprima "No es ni número ni string". Puedes hacerlo con cualquier tipo de condicional.
 
+//Escribe tu código aquí
+
 const value = '1'
 
 const resultado = typeof value === "number" ? "Es un número" :
@@ -85,12 +87,15 @@ const resultado = typeof value === "number" ? "Es un número" :
 
 console.log(resultado);
 
-//Escribe tu código aquí
+
 
 
 //BUCLES
 
 //Ejercicio 9: Imprime en consola una lista del 0 al 10 con el bucle for
+for (let i=0 ; i<= 10 ; i++){
+    console.log(i)
+};
 
 //Escribe tu código aquí
 
