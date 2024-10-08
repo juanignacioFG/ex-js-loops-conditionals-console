@@ -125,10 +125,10 @@ const programmers = [
         lastname: 'Lamarr',
         knowledge: 'el wifi'
     }     
+
 ]
-for (let index in programmers) {
-    console.log(`${index}: ${programmers[index].name}, ${programmers[index].lastname}, su aporte fue ${programmers[index].knowledge}`);
-}
+for (let i=0  ; i< programmers.length ; i++)
+console.log(programmers[i].name+" "+programmers[i].lastname + " aporto "+ programmers[i].knowledge );
 
 //Escribe tu código aquí
 
