@@ -143,8 +143,16 @@ const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
-
+let e= 1;
+while (e<=6){
+    console.log(e); e++;
+}
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
-
 //Escribe tu código aquí
+let i = 1;
+do{
+    console.log(i); i++
+}while(i<=6)
+
+
